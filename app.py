@@ -47,7 +47,7 @@ with imcol2:
 # Header
 st.markdown(
     "<p style='text-align: center; color: black; margin-top: -10px; font-size: 30px;'>"
-    "<span style='font-weight: bold'>Generative AI Learning Program – Foundational Learning</span></p>",
+    "<span style='font-weight: bold'>Agentic AI Learning Program – Foundational Learning</span></p>",
     unsafe_allow_html=True,
 )
 
@@ -64,7 +64,7 @@ with st.sidebar:
         unsafe_allow_html=True,
     )
     vAR_AI_application = st.selectbox(
-        "", ["Select Application", "Caltrans"], key="application"
+        "", ["Select Application", "LLMatScale"], key="application"
     )
     vAR_LLM_model = st.selectbox(
         "",
