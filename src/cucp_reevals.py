@@ -312,7 +312,7 @@ def evaluations_model(vAR_narrative):
                           - Fail = Yes (if the standard is clearly unmet)
                           - Or mark "Request Additional Information = Yes" when missing data prevents a clear pass.
                         - Always provide BOTH:
-                          1) The EVALUATION TABLE (Part 1), and
+                          1) The EVALUATION T ABLE (Part 1), and
                           2) The EXPLAINABLE AI TABLE (Part 2), in that order.
                         - Both outputs MUST be valid markdown tables.
 

@@ -115,7 +115,7 @@ col61, col62, col63, col64, col65 = st.columns((2, 5, 5, 5, 2))
 col71, col72, col73 = st.columns([1, 7, 1])
 
 # Only show usecase selection if application is selected
-if vAR_AI_application == "Caltrans":
+if vAR_AI_application == "LLMatScale":
     with col2:
         st.subheader("Select Application")
         st.write("#")
