@@ -58,7 +58,7 @@ You must output ONLY valid JSON in the following format:
       "who": "person/group or NOT PROVIDED",
       "what": "the specific incident",
       "why": "the cause/motivation",
-      "magnitude": "amount of harm",
+      "magnitude": "description of the type and amount of economic harm (e.g., lost contracts, dollar amounts, or comparative disadvantage)",
       "demographic_flag": true or false,
       "source_quote": "short exact snippet"
     }}
