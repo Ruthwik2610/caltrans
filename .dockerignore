@@ -1,0 +1,16 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.git/
+.gitignore
+knowledge/
+brain/
+tmp/
+*.json
+!memory_db.json
+
+# Don't include the local SQLite db or any scratch files
+*.sqlite3
+*.db
+.DS_Store
