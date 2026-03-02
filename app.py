@@ -41,9 +41,7 @@ with open("style/final.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Display company logo
-imcol1, imcol2, imcol3 = st.columns((4.5, 5.5, 4.5))
-with imcol2:
-    st.image("image/caltrans.jpg", width=200)
+st.image("image/caltrans.jpg", use_container_width=True)
 
 # Header
 st.markdown(
@@ -98,14 +96,12 @@ with st.sidebar:
         "<p style='text-align: center; color: White; font-size:20px;'>Build & Deployed on<span style='font-weight: bold'></span></p>",
         unsafe_allow_html=True,
     )
-    s1, s2, s3, s4 = st.columns((4, 4, 4, 4))
+    s1, s2, s3 = st.columns((4, 4, 4))
     with s1:
-        st.image("image/caltrans.jpg")
-    with s2:
         st.image("image/oie_png.png")
-    with s3:
+    with s2:
         st.image("image/aws_logo.png")
-    with s4:
+    with s3:
         st.image("image/AzureCloud_img.png")
 
 
