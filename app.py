@@ -40,10 +40,10 @@ st.markdown(
 with open("style/final.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-# Display company logo
-st.markdown("<div style='text-align:center'>", unsafe_allow_html=True)
-st.image("image/caltrans.jpg", width=400)
-st.markdown("</div>", unsafe_allow_html=True)
+# Display company logo (centered)
+_, logo_col, _ = st.columns([1, 2, 1])
+with logo_col:
+    st.image("image/caltrans.jpg", use_container_width=True)
 
 # Header
 st.markdown(
