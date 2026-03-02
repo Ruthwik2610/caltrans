@@ -262,17 +262,17 @@ if app_option != "Select the Usecase":
 
     elif app_option == "CUCP Re-Evaluations":
         with col22:
-            st.subheader("Upload the Narrative(s) (PDF)")
+            st.subheader("Upload the Narrative(s)")
         with col24:
             cucp_files = st.file_uploader(
-                "Upload Narrative PDF(s)",
+                "Upload Narrative(s)",
                 type=["pdf"],
                 key="cucp_upload",
                 accept_multiple_files=True,
             )
 
         with col22:
-            st.subheader("Upload PNW Data (Excel)")
+            st.subheader("Upload PNW Data")
         with col24:
             revenue_excel = st.file_uploader(
                 "Upload PNW Data",
@@ -494,8 +494,8 @@ if app_option != "Select the Usecase":
             ">
                 <h3 style="margin: 0 0 12px 0; color: #1a3d6e;">👋 Welcome! Here's how to get started:</h3>
                 <ol style="margin: 0; padding-left: 20px; color: #333; line-height: 2;">
-                    <li><strong>Upload the applicant's narrative</strong> (PDF) using the uploader above</li>
-                    <li><strong>Optionally upload PNW data</strong> (Excel) for automatic cross-referencing</li>
+                    <li><strong>Upload the applicant's narrative</strong> using the uploader above</li>
+                    <li><strong>Optionally upload PNW data</strong> for automatic cross-referencing</li>
                     <li>Click <strong>Start AI Evaluation</strong> — the AI will walk you through each step</li>
                 </ol>
             </div>
